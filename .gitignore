@@ -1,0 +1,16 @@
+# Credentials and local config: never commit
+.env
+*.env
+secrets*
+config.local.*
+*credentials*
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# OS / editors
+.DS_Store
+.idea/
+.vscode/
